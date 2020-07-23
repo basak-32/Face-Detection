@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: pink;
+}
+
+.inside-nav {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: plum;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 18px;
+  box-shadow: 2px 3px grey;
+}
+
+button:hover {
+  background-color: rgb(196, 122, 196);
+}
+
+#input-output {
+  text-align: center;
+}
+
+.output {
+  /* text-align: center; */
+  position: relative;
+  width: 500px;
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.output-para {
+  font-size: 25px;
+}
