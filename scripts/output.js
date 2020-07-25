@@ -3,7 +3,7 @@ const outputPara = document.querySelector('.output-para');
 const boundingBox = document.querySelector('.bounding-box');
 
 const output = (response) => {
-  console.log(response);
+  // console.log(response);
   if (response.outputs[0].data.regions === undefined) {
     outputPara.innerHTML = `<p>Sorry! It can't detect any face</p>`;
     // list.innerHTML = "";

@@ -29,6 +29,11 @@ button:hover {
   text-align: center;
 }
 
+/* #fld_images {
+  position:absolute; top:-100px;
+} */
+
+
 .output {
   /* text-align: center; */
   position: relative;

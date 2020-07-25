@@ -20,6 +20,7 @@
 
   <!-- input field -->
   <section id="input-output">
+    
     <div class="input-group pt-5 pl-5 pr-5 mr-3 ml-3">
       <input type="text" class="form-control input-field" placeholder="Paste your URL here" aria-describedby="button-addon2">
       <div class="input-group-append">
@@ -27,12 +28,20 @@
       </div>
     </div>
 
+    <h3 class="mt-2 mb-2">
+      Or
+    </h3>
+
+    <div class="local-image-input p-3 m-2">
+      <input type="file" accept="image/*" onchange="importFileandPreview()">
+    </div>
+
     <div class="output-para p-3 m-1 text-center">
       <p>There are 1 person(s) in the image</p>
     </div>
 
     <div class="output">
-      <img class="output-image" width="500px" height="450px"  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="img">
+      <img id="myImg" class="output-image" width="500px" height="450px"  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="img">
       <div class="bounding-box" style="top: 0; right: 0; bottom: 0; left: 0;"></div>
     </div>
 
